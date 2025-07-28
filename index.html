@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>What's in Michi's Bookstore?</h1>
+  
+  <form id="book-form">
+    <h2>Add a book to the list!</h2>
+    <div class="form-group">
+        <label class="form-label">Book Title</label>
+        <input type="text" class="form-input" id="title" name="title" placeholder="Enter Book Title" required />
+    </div>
+    <div class="form-group">
+        <label class="form-label">Author's Name</label>
+        <input type="text" class="form-input" id="author" name="author" placeholder="Enter Author's Name" required />
+    </div>
+     <div class="form-group">
+        <label class="form-label">Book Title</label>
+        <input type="text" class="form-input" id="publisher" name="publisher" placeholder="Enter Publisher" required />
+    </div>
+    <button type="submit" class="btn-submit">Add Book</button>
+  </form>
+
+  <div class="book-list-section" id="book-list">
+    <h2 class="section-title">Michi's Books in Stock</h2>
+    <section id="books-table" class="d-flex flex-column">
+        <section class="table-header d-flex p-2">
+            <section class="table-header-item">
+                <h3>Title</h3>
+            </section>
+            <section class="table-header-item">
+                <h3>Author</h3>
+            </section>
+            <section class="table-header-item">
+                <h3>Publisher</h3>
+            </section>
+        </section>
+    </section>
+    <!-- My list of Books Loaded Below -->
+    <section id="book-list-container"></section>
+  </div>
+  <!-- Link my scripts below this comment-->
+    <script src="app.js"></script>
+</body>
+</html>
