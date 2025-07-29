@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookstore</title>
+    <title>Michi's Books</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>What's in Michi's Bookstore?</h1>
+  <h1>★ Michi's Books ★</h1>
   
   <form id="book-form">
-    <h2>Add a book to the list!</h2>
+    <h2>Add a book to the shelf!</h2>
     <div class="form-group">
         <label class="form-label">Book Title</label>
         <input type="text" class="form-input" id="title" name="title" placeholder="Enter Book Title" required />
@@ -28,9 +31,9 @@
   </form>
 
   <div class="book-list-section" id="book-list">
-    <h2 class="section-title">Michi's Books in Stock</h2>
-    <section id="books-table" class="d-flex flex-column">
-        <section class="table-header d-flex p-2">
+    <h2 class="section-title">Michi's Bookshelf</h2>
+    <section id="books-table" class="books-table">
+        <section class="table-header">
             <section class="table-header-item">
                 <h3>Title</h3>
             </section>

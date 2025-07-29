@@ -1,0 +1,158 @@
+/* reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffeee6;
+  color: #403f67;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* headings */
+h1 {
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #403f67;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
+  color: #403f67;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #403f67;
+}
+
+/* form styles */
+form {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  color: #403f67;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  padding: 0.6rem;
+  border: 1px solid #403f67;
+  border-radius: 4px;
+}
+
+/* submit button */
+.btn-submit {
+  padding: 0.7rem 1.5rem;
+  background-color: #d81e5b;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #fad1de;
+  color: #403f67;
+}
+
+/* book list styles */
+.book-list-section {
+  font-family: "Roboto", sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* table and layout */
+.table-header,
+.book-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #403f67;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #403f67;
+}
+
+.book-row:hover {
+    background-color: #fad1de;
+}
+
+.table-header {
+  background-color: rgb(212, 211, 232);
+  font-weight: bold;
+  border-bottom: solid 2px #403f67;
+}
+
+.table-header-item {
+    flex-grow: 1;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.table-item {
+  flex: 1;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+/* delete icon */
+.delete-book {
+  color: #ff2436;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.3rem;
+  transition: 0.3s ease;
+}
+
+.delete-book:hover {
+  color: #b52937;
+}
+
+/* responsive layout */
+@media (max-width: 600px) {
+  .table-header,
+  .book-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .table-item {
+    padding: 1rem 0;
+  }
+
+  .delete-book {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+  }
+}
