@@ -40,12 +40,13 @@ dom_project_final
 ## Running Tests
 This project is simple and doesn't require formal testing, but you can test it manually:
 
-# End-to-End Functionality
+### End-to-End Functionality
 Ways I confirmed that the core features of the project work:
 * Add a book using the form
 * Verify the book added is located in the table
 * Clicking the "Delete" icon removes a book from the table
-__Example__
+  
+__Example:__
 1. Enter:
    * Title: _The Summer I Turned Pretty_
    * Author: _Jenny Han_
@@ -53,7 +54,9 @@ __Example__
 2. Click the "Add Book" button
 3. See the book added to the bottom of the table
 4. Click the "Delete" icon and see the book row removed
-__DOM Behavior__
+
+### DOM Behavior
+
 Manual checks ensure:
    * There is clean separation of HTML, CSS, and JS
    * DOM updates without full-page reload
