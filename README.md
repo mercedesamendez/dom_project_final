@@ -3,23 +3,23 @@ This is a simple and easy to use bookstore inventory web application built using
 **Link to project:** https://688a8475783c1e0edc9e011c--domprojectfinal.netlify.app/
 
 ## Features
--Add books to a table using a form
--Display book entries
--Remove books from the table
--Simple user interface
--Built using vanilla JavaScript
+* Add books to a table using a form
+* Display book entries
+* Remove books from the table
+* Simple user interface
+* Built using vanilla JavaScript
 
 ## Technologies Used
--HTML for structure
--CSS for styling
--JavaScript (DOM Manipulation) for logic
+* HTML for structure
+* CSS for styling
+* JavaScript (DOM Manipulation) for logic
 
 ## Project Structure
 dom_project_final
--index.html # Main HTML file
--app.js # JavaScript file
--styles.css # External stylesheet
--README.md # Project documentation
+* index.html # Main HTML file
+* app.js # JavaScript file
+* styles.css # External stylesheet
+* README.md # Project documentation
 
 ## Installation
 1. Clone the repository:
@@ -42,28 +42,28 @@ This project is simple and doesn't require formal testing, but you can test it m
 
 # End-to-End Functionality
 Ways I confirmed that the core features of the project work:
--Add a book using the form
--Verify the book added is located in the table
--Clicking the "Delete" icon removes a book from the table
+* Add a book using the form
+* Verify the book added is located in the table
+* Clicking the "Delete" icon removes a book from the table
 __Example__
 1. Enter:
-   • Title: _The Summer I Turned Pretty_
-   • Author: _Jenny Han_
-   • Publisher: _Simon & Schuster Books_
+   * Title: _The Summer I Turned Pretty_
+   * Author: _Jenny Han_
+   * Publisher: _Simon & Schuster Books_
 2. Click the "Add Book" button
 3. See the book added to the bottom of the table
 4. Click the "Delete" icon and see the book row removed
 __DOM Behavior__
 Manual checks ensure:
-   • There is clean separation of HTML, CSS, and JS
-   • DOM updates without full-page reload
-   • Form resets after submission
-   • Buttons respond to the click events 
+   * There is clean separation of HTML, CSS, and JS
+   * DOM updates without full-page reload
+   * Form resets after submission
+   * Buttons respond to the click events 
 
 ## Future Ideas to Implement
--Implement a search or filtering functionality
--Add a success message after submitting or deleting a book
--Add the ability to view all the books from the API in a clean and usable manner
+* Implement a search or filtering functionality
+* Add a success message after submitting or deleting a book
+* Add the ability to view all the books from the API in a clean and usable manner
 
 ## Lessons Learned
 Working on this project taught me the power of a well‑organized codebase. Separating HTML, CSS, and JavaScript made everything cleaner, easier to debug, and far less overwhelming. Once the structure was solid, I discovered how much I enjoy the logic layer—making sure each interaction worked perfectly before adding UI flair. Although some moments were tedious (especially when the code didn’t behave), the process deepened my understanding of how JavaScript and HTML elements communicate. Overall, this project turned frustration into clarity and reaffirmed that thoughtful organization is the foundation of enjoyable, maintainable code.
